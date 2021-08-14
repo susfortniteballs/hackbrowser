@@ -44,7 +44,7 @@ namespace hack_browser
 // TODO: Code generation for '			this.chromiumWebBrowser1.BrowserHwnd' failed because of Exception 'Invalid Primitive Type: System.IntPtr. Consider using CodeObjectCreateExpression.'.
 			this.chromiumWebBrowser1.Location = new System.Drawing.Point(-1, 36);
 			this.chromiumWebBrowser1.Name = "chromiumWebBrowser1";
-			this.chromiumWebBrowser1.Size = new System.Drawing.Size(800, 379);
+			this.chromiumWebBrowser1.Size = new System.Drawing.Size(901, 497);
 			this.chromiumWebBrowser1.TabIndex = 0;
 			this.chromiumWebBrowser1.LoadingStateChanged += new System.EventHandler<CefSharp.LoadingStateChangedEventArgs>(this.chromiumWebBrowser1_LoadingStateChanged);
 			// 
@@ -69,8 +69,9 @@ namespace hack_browser
 			this.siticoneTextBox1.PlaceholderText = "";
 			this.siticoneTextBox1.SelectedText = "";
 			this.siticoneTextBox1.ShadowDecoration.Parent = this.siticoneTextBox1;
-			this.siticoneTextBox1.Size = new System.Drawing.Size(687, 29);
+			this.siticoneTextBox1.Size = new System.Drawing.Size(788, 29);
 			this.siticoneTextBox1.TabIndex = 1;
+			this.siticoneTextBox1.TextChanged += new System.EventHandler(this.siticoneTextBox1_TextChanged);
 			// 
 			// siticoneButton1
 			// 
@@ -80,7 +81,7 @@ namespace hack_browser
 			this.siticoneButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
 			this.siticoneButton1.ForeColor = System.Drawing.Color.White;
 			this.siticoneButton1.HoveredState.Parent = this.siticoneButton1;
-			this.siticoneButton1.Location = new System.Drawing.Point(692, 1);
+			this.siticoneButton1.Location = new System.Drawing.Point(793, 1);
 			this.siticoneButton1.Name = "siticoneButton1";
 			this.siticoneButton1.ShadowDecoration.Parent = this.siticoneButton1;
 			this.siticoneButton1.Size = new System.Drawing.Size(106, 29);
@@ -92,7 +93,7 @@ namespace hack_browser
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 414);
+			this.ClientSize = new System.Drawing.Size(901, 532);
 			this.Controls.Add(this.siticoneButton1);
 			this.Controls.Add(this.siticoneTextBox1);
 			this.Controls.Add(this.chromiumWebBrowser1);

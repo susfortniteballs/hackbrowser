@@ -36,5 +36,10 @@ namespace hack_browser
 		{
 			
 		}
+
+		private void siticoneTextBox1_TextChanged(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
